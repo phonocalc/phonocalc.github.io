@@ -61,31 +61,32 @@ python3 phon_calc.py --word mrát --word brát
 
 To count phonotactic probability, add `--transcribe`.
 ```
-  
-```
-  
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+python3 phon_calc.py --word včela --transcribe  
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+To count orthotactic probability based on positional segment frequency, add `--ngram 1`:
+```
+python3 phon_calc.py --word čmelák --ngram 1
+```
 
+If you want to count phonotactic probability based on positional segment frequency, add both `--ngram 1` and `--transcribe`
+```
+python3 phon_calc.py --word čmelák --ngram 1 --transcribe
+```
 
-### Support or Contact
+If you want to calculate based on specific trisegment frequency:
+```
+python3 phon_calc.py --word čmelák --ngram 3 --transcribe
+```
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Calculate based on SYN2020:
+```
+python3 phon_calc.py --database syn2020_word_utf8.tsv --word blik
+```
+  
+Calculate based on ORAL:
+```
+python3 phon_calc.py --database oral_word_utf8.tsv --word kuk
+```
+
+  
