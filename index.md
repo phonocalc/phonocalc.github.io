@@ -89,4 +89,26 @@ Calculate based on ORAL:
 python3 phon_calc.py --database oral_word_utf8.tsv --word kuk
 ```
 
+### How to calculate based on your own frequency list?
+You need to save your frequency list in the same folder as the script is, preferably in a .tsv format. Then you need to specify its name and the column number for words and frequency in the command:
+```
+python3 phon_calc.py --database your_frequency_list.tsv --word hups --database-word-index 0 --database-frequency-index 1
+```
+
+## Credits
+
+We hope to publish an article you can cite soon. In the meantime, please write to Petra Cechova.
+
+### Authors:
+
+_Petra Cechova_
+petra.cechova(at)ff.cuni.cz
+Faculty of Arts, Charles University
+
+_Jan Henys_
+petra.cechova(at)ff.cuni.cz
+Faculty of Arts, Charles University
+  
+_Jaroslav Cecho_
+
   
