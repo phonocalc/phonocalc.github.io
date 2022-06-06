@@ -46,7 +46,7 @@ If you are familiar with python, install required libraries specified in the req
 
 If you are not familiar with python, read how to install it and the required libraries to your computer here (so far only for Windows). 
 
-###Commands to run the script with:
+### Commands to run the script with:
 
 The basic command counts orthographic probability (because it requires shorter time) based on position specific bisegment frequency and SYN2015. This example command asks for the orthographic probability estimate of the pseudoword “mrát”:
   
