@@ -101,20 +101,16 @@ We hope to publish an article you can cite soon. In the meantime, please write t
 
 ### Authors:
 
-**Petra Cechova**
-  
-petra.cechova(at)ff.cuni.cz
-  
+**Petra Cechova**<br/>
+petra.cechova(at)ff.cuni.cz<br/>
 Faculty of Arts, Charles University
   
   
 **Jaroslav Cecho**
   
   
-**Jan Henys**
-  
-petra.cechova(at)ff.cuni.cz
-  
+**Jan Henys**<br/>
+jan.henys(at)ff.cuni.cz<br/>
 Faculty of Arts, Charles University
   
   
