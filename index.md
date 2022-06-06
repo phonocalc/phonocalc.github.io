@@ -101,14 +101,13 @@ We hope to publish an article you can cite soon. In the meantime, please write t
 
 ### Authors:
 
-_Petra Cechova_
-petra.cechova(at)ff.cuni.cz
-Faculty of Arts, Charles University
-
-_Jan Henys_
+*Petra Cechova*
 petra.cechova(at)ff.cuni.cz
 Faculty of Arts, Charles University
   
-_Jaroslav Cecho_
-
+*Jaroslav Cecho*
+  
+*Jan Henys*
+petra.cechova(at)ff.cuni.cz
+Faculty of Arts, Charles University
   
