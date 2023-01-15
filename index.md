@@ -5,7 +5,7 @@ To find out more about our calculator, read the concise paragraphs below or the 
 To calculate phonotactic probability, download the python script and related files below. If necessary, do read instructions on how to install python on your computer (so far available only for Windows). 
 To run the script based on your needs, have a look at our example commands, otherwise, read the README.txt file.
 
-[Download PhonCalc here (ZIP archive)](PhonCalc.zip)
+[Download PhonoCalc here (ZIP archive)](https://github.com/github/phonocalc/blob/main/PhonCalc.zip)
   
 
 ## What it is 
