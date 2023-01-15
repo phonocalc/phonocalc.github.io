@@ -16,7 +16,7 @@ Luce, 2004).
 It has been shown that estimates of phonotactic probability of words are important
 in language processing and language acquisition (Jusczyk, Luce & Charles-Luce,
 1994; Mattys & Jusczyk, 2001; Pitt & McQueen, 1998). For example, words with high
-phonotactic probability are recognized faster by native speakers in lexical decision
+phonotactic probability are processed faster by native speakers in same-different
 tasks (Luce & Large, 2001) and pseudowords with high phonotactic probability are
 judged as more word-like by adults (Vitevitch, Luce, Charles-Luce & Kemmerer, 1997).
 
@@ -69,7 +69,7 @@ To count orthotactic probability based on positional segment frequency, add `--n
 python3 phon_calc.py --word čmelák --ngram 1
 ```
 
-If you want to count phonotactic probability based on positional segment frequency, add both `--ngram 1` and `--transcribe`
+If you want to compute phonotactic probability based on positional segment frequency, add both `--ngram 1` and `--transcribe`
 ```
 python3 phon_calc.py --word čmelák --ngram 1 --transcribe
 ```
@@ -89,10 +89,30 @@ Calculate based on ORAL:
 python3 phon_calc.py --database oral_word_utf8.tsv --word kuk
 ```
 
+If you want to calculate a reversed probability, add `--reverse`:
+```
+python3 phon_calc.py --word čmelák --reverse
+```
+
+Input consisting of higher tens or hundreds of (non)words can be loaded from a file:
+```
+python3 phon_calc.py --words-file input_file.csv
+```
+
 ### How to calculate based on your own frequency list?
 You need to save your frequency list in the same folder as the script is, preferably in a .tsv format. Then you need to specify its name and the column number for words and frequency in the command:
 ```
 python3 phon_calc.py --database your_frequency_list.tsv --word hups --database-word-index 0 --database-frequency-index 1
+```
+
+If you want to transcribe your frequency list into IPA and print it:
+```
+python3 phon_calc.py --transcribe-database
+```
+
+And finally, to save the final estimates to a file, add > name_of_the_file.txt to a command:
+```
+python3 phon_calc.py  --word blik --klik --transcribe --reverse > bi_phon_prob_reversed.txt
 ```
 
   
