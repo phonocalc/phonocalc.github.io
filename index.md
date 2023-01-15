@@ -107,9 +107,7 @@ The basic command counts orthographic probability (because it requires shorter t
   
 
 ```
-
 python3 phon_calc.py --word mrát
-
 ```
 
   
@@ -117,9 +115,7 @@ python3 phon_calc.py --word mrát
 Multiples words or pseudowords can be put into one command:
 
 ```
-
 python3 phon_calc.py --word mrát --word brát
-
 ```
 
 
@@ -127,9 +123,7 @@ python3 phon_calc.py --word mrát --word brát
 To count phonotactic probability, add `--transcribe`.
 
 ```
-
 python3 phon_calc.py --word včela --transcribe  
-
 ```
 
 
@@ -137,9 +131,7 @@ python3 phon_calc.py --word včela --transcribe
 To count orthotactic probability based on positional segment frequency, add `--ngram 1`:
 
 ```
-
 python3 phon_calc.py --word čmelák --ngram 1
-
 ```
 
 
@@ -147,19 +139,15 @@ python3 phon_calc.py --word čmelák --ngram 1
 If you want to compute phonotactic probability based on positional segment frequency, add both `--ngram 1` and `--transcribe`
 
 ```
-
 python3 phon_calc.py --word čmelák --ngram 1 --transcribe
-
 ```
 
 
 
 If you want to calculate based on specific trisegment frequency:
-
+  
 ```
-
 python3 phon_calc.py --word čmelák --ngram 3 --transcribe
-
 ```
 
 
@@ -167,9 +155,7 @@ python3 phon_calc.py --word čmelák --ngram 3 --transcribe
 Calculate based on SYN2020:
 
 ```
-
 python3 phon_calc.py --database syn2020_word_utf8.tsv --word blik
-
 ```
 
   
@@ -177,16 +163,12 @@ python3 phon_calc.py --database syn2020_word_utf8.tsv --word blik
 Calculate based on ORAL:
 
 ```
-
 python3 phon_calc.py --database oral_word_utf8.tsv --word kuk
-
 ```
 
 If you want to calculate a reversed probability, add `--reverse`:
 ```
-
 python3 phon_calc.py --word čmelák --reverse
-
 ```
 
 Input consisting of higher tens or hundreds of (non)words can be loaded from a file:
@@ -201,9 +183,7 @@ python3 phon_calc.py --words-file input_file.csv
 You need to save your frequency list in the same folder as the script is, preferably in a .tsv format. Then you need to specify its name and the column number for words and frequency in the command:
 
 ```
-
 python3 phon_calc.py --database your_frequency_list.tsv --word hups --database-word-index 0 --database-frequency-index 1
-
 ```
 
 If you want to transcribe your frequency list into IPA and print it:
@@ -215,7 +195,6 @@ python3 phon_calc.py --transcribe-database
 And finally, to save the final estimates to a file, add `> name_of_the_file.txt` to a command:
 
 ```
-
 python3 phon_calc.py  --word blik --klik --transcribe --reverse > bi_phon_prob_reversed.txt
 ```
   
