@@ -86,7 +86,7 @@ The input for the script is any existing or non-existing word or an entire list 
 
 
 
-Download the needed files here.
+Download the needed files [here](https://github.com/phonocalc/phonocalc.github.io/raw/97e1c58662a31474d66a2523d636801ea71574a6/PhonoCalc.zip).
 
 
 
