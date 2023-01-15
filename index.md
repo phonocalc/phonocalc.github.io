@@ -1,6 +1,6 @@
 # Phonotactic Calculator for Czech
 
-To find out more about our calculator, read the concise paragraphs below or the detailed description available [here](https://github.com/phonocalc/phonocalc.github.io/blob/1eba3c5574bfaf97dd5020b8e94325340f9c34c9/PhonoCalc_tutorial_en.pdf).
+To find out more about our calculator, read the concise paragraphs below or the detailed description available [here](https://github.com/phonocalc/phonocalc.github.io/raw/1eba3c5574bfaf97dd5020b8e94325340f9c34c9/PhonoCalc_tutorial_en.pdf).
 To calculate phonotactic probability, download the python script and related files below. If necessary, do read instructions on how to install python on your computer (so far available only for Windows). 
 To run the script based on your needs, have a look at our example commands, otherwise, read the README.txt file.
 
