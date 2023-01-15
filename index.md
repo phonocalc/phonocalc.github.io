@@ -115,4 +115,24 @@ And finally, to save the final estimates to a file, add > name_of_the_file.txt t
 python3 phon_calc.py  --word blik --klik --transcribe --reverse > bi_phon_prob_reversed.txt
 ```
 
-  
+### Authors:
+
+**Petra Cechova**
+
+petra.cechova(at)ff.cuni.cz
+
+**Petra Cechova**<br/>
+petra.cechova(at)ff.cuni.cz<br/>
+Faculty of Arts, Charles University
+
+
+**Jaroslav Cecho**
+
+
+**Jan Henys**
+
+petra.cechova(at)ff.cuni.cz
+
+**Jan Henys**<br/>
+jan.henys(at)ff.cuni.cz<br/>
+Faculty of Arts, Charles University
