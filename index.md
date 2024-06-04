@@ -1,6 +1,6 @@
 # Phonotactic Calculator for Czech
 
-To find out more about our calculator, read the concise paragraphs below or the detailed description available here (to be added).
+To find out more about our calculator, read the concise paragraphs below or our detailed article:<br>__Čechová, P., Cilibrasi, L., Henyš, J. & Čecho, J. (2023). [Introducing a phonotactic probability calculator for Czech](https://asjournals.lib.cas.cz/naserec/article/uuid:35b99c0d-ef22-4a45-9e31-013a0731a48a). *Naše řeč*, 106(1), 72-83__.
 
 To calculate phonotactic probability, download the python script and related files below. If necessary, do read instructions on how to install python on your computer (so far available only for Windows). 
 To run the script based on your needs, have a look at our example commands, otherwise, read the README.txt file.
@@ -116,16 +116,20 @@ And finally, to save the final estimates to a file, add `> name_of_the_file.txt`
 ```
 python3 phon_calc.py  --word blik --klik --transcribe --reverse > bi_phon_prob_reversed.txt
 ```
+
+### How to cite?
+When using our calculator, please cite the following article:<br>
+__Čechová, P., Cilibrasi, L., Henyš, J. & Čecho, J. (2023). Introducing a phonotactic probability calculator for Czech. *Naše řeč*, 106(1), 72-83__.
   
 ### Authors:
 
-**Petra Cechova**<br/>
+**Petra Čechová**<br/>
 petra.cechova(at)ff.cuni.cz<br/>
 Faculty of Arts, Charles University
 
-**Jaroslav Cecho**
+**Jaroslav Čecho**
 
-**Jan Henys**<br/>
+**Jan Henyš**<br/>
 jan.henys(at)ff.cuni.cz<br/>
 Faculty of Arts, Charles University
  
